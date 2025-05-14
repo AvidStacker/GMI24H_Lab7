@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTreeLab.csproj",
+      "projectUniqueName": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTreeLab.csproj",
       "projectName": "BinarySearchTreeLab",
-      "projectPath": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTreeLab.csproj",
+      "projectPath": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTreeLab.csproj",
       "packagesPath": "C:\\Users\\ilage\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\obj\\",
+      "outputPath": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

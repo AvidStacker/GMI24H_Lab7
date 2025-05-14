@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\",
+  "WorkspaceRootPath": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\ilage\\source\\repos\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\ilage\\source\\repos\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BinarySearchTree.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
+              "DocumentMoniker": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeDocumentMoniker": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ToolTip": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
+              "ToolTip": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeToolTip": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ViewState": "AgIAANYAAAAAAAAAAAAAAMIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwKcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:09:36.673Z",
               "EditorCaption": ""
@@ -65,14 +65,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
+              "DocumentMoniker": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
               "RelativeDocumentMoniker": "BinarySearchTreeLab\\Program.cs",
-              "ToolTip": "C:\\Users\\ilage\\source\\repos\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
+              "ToolTip": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
               "RelativeToolTip": "BinarySearchTreeLab\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:08:17.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T12:08:17.538Z"
             }
           ]
         },

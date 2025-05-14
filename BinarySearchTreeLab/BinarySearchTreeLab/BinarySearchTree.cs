@@ -179,20 +179,20 @@ namespace BinarySearchTreeLab
             TreeNode<T> current = this.root;
             TreeNode<T> parent = null;
 
-            while (current != null)
+            while (current != null && current.Value.CompareTo(value) != 0)
             {
                 parent = current;
-                if (current.Value.CompareTo(value) > 0)
-                {
+                if (value.CompareTo(current.Value) < 0)
                     current = current.Left;
-                }
                 else
-                {
                     current = current.Right;
-                }
             }
 
-            // FIXA!!!!!!!!!!!!!!!!!!!!!!
+            if (parent.Left == current)
+                parent.Left = current.Left ?? current.Right;
+            else
+                parent.Right = current.Left ?? current.Right;
+
 
         }
 
