@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
+  "WorkspaceRootPath": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -34,44 +42,37 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BinarySearchTree.cs",
-              "DocumentMoniker": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
+              "DocumentMoniker": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeDocumentMoniker": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ToolTip": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
+              "ToolTip": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeToolTip": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAgwKcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:09:36.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
               "RelativeDocumentMoniker": "BinarySearchTreeLab\\Program.cs",
-              "ToolTip": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
+              "ToolTip": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
               "RelativeToolTip": "BinarySearchTreeLab\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:08:17.538Z"
+              "WhenOpened": "2025-05-14T12:08:17.538Z",
+              "EditorCaption": ""
             }
           ]
         },
