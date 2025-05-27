@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
+using System.Text;
 
 namespace BinarySearchTreeLab
 {
@@ -92,19 +94,45 @@ namespace BinarySearchTreeLab
 
         private TreeNode<T> DeleteRecursiveHelper(TreeNode<T> current, T value)
         {
-            int comparison = current.Value.CompareTo(value);
+            if (current == null) return null;
 
-            if (comparison > 0)
+            int comparison = value.CompareTo(current.Value);
+
+            if (comparison < 0)
             {
                 current.Left = DeleteRecursiveHelper(current.Left, value);
             }
-            else if (comparison < 0)
+            else if (comparison > 0)
             {
                 current.Right = DeleteRecursiveHelper(current.Right, value);
             }
+            else
+            {
 
-            // FIXA !!!!!!!!!!!!!!!
+                // Case 1: No children
+                if (current.Left == null && current.Right == null)
+                {
+                    return null;
+                }
+
+                // Case 2: One child
+                if (current.Left == null) return current.Right;
+                if (current.Right == null) return current.Left;
+
+                // Case 3: Two children — find in-order successor inline
+                TreeNode<T> successor = current.Right;
+                while (successor.Left != null)
+                {
+                    successor = successor.Left;
+                }
+
+                current.Value = successor.Value;
+                current.Right = DeleteRecursiveHelper(current.Right, successor.Value);
+            }
+
+            return current;
         }
+
 
         public void AddIterative(T value)
         {
@@ -166,15 +194,8 @@ namespace BinarySearchTreeLab
 
         public TreeNode<T> DeleteIterative(T value)
         {
-
             if (this.root == null)
-            {
-                throw new Exception(); // FIXA!!!!!!!
-            }
-            if (SearchIterative(value) == false)
-            {
-                throw new Exception(); // FIXA!!!!!!
-            }
+                throw new InvalidOperationException("Trädet är tomt.");
 
             TreeNode<T> current = this.root;
             TreeNode<T> parent = null;
@@ -188,27 +209,40 @@ namespace BinarySearchTreeLab
                     current = current.Right;
             }
 
-            if (parent.Left == current)
-                parent.Left = current.Left ?? current.Right;
+            if (current == null)
+                throw new InvalidOperationException("Värdet finns inte i trädet.");
+
+            // Fall 1 & 2: 0 eller 1 barn
+            TreeNode<T> child = current.Left ?? current.Right;
+
+            if (parent == null)
+                this.root = child;
+            else if (parent.Left == current)
+                parent.Left = child;
             else
-                parent.Right = current.Left ?? current.Right;
+                parent.Right = child;
 
+            // Fall 3: två barn
+            if (current.Left != null && current.Right != null)
+            {
+                TreeNode<T> succParent = current;
+                TreeNode<T> successor = current.Right;
+                while (successor.Left != null)
+                {
+                    succParent = successor;
+                    successor = successor.Left;
+                }
 
+                current.Value = successor.Value;
+
+                if (succParent.Left == successor)
+                    succParent.Left = successor.Right;
+                else
+                    succParent.Right = successor.Right;
+            }
+
+            return current;
         }
 
-    }
-
-    internal class TreeNode<T>
-    {
-        public T Value { get; set; }
-        public TreeNode<T> Left { get; set; }
-        public TreeNode<T> Right { get; set; }
-
-        public TreeNode(T value)
-        {
-            this.Value = value;
-            this.Left = null;
-            this.Right = null;
-        }
     }
 }

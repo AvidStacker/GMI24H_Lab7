@@ -3,12 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\dokument\\gmi24h\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +31,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 8,
+=======
+          "SelectedChildIndex": 9,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +67,33 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 2,
+              "Title": "TreeNode.cs",
+              "DocumentMoniker": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\TreeNode.cs",
+              "RelativeDocumentMoniker": "BinarySearchTreeLab\\TreeNode.cs",
+              "ToolTip": "C:\\Dokument\\GMI24H\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\TreeNode.cs",
+              "RelativeToolTip": "BinarySearchTreeLab\\TreeNode.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:52:16.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 1,
               "Title": "BinarySearchTree.cs",
               "DocumentMoniker": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeDocumentMoniker": "BinarySearchTreeLab\\BinarySearchTree.cs",
               "ToolTip": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
               "RelativeToolTip": "BinarySearchTreeLab\\BinarySearchTree.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAOQAAAAAAAAAAAAIwPEAAAANAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T12:09:36.673Z",
               "EditorCaption": ""
