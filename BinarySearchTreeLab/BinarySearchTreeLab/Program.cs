@@ -39,13 +39,13 @@
                     case "3":
                         Console.Write("Enter value to search: ");
                         if (int.TryParse(Console.ReadLine(), out int searchRec))
-                            Console.WriteLine(bst.SearchRecursive(searchRec) ? "Found!" : "Not found.");
+                            Console.WriteLine(bst.SearchRecursive(searchRec) ? "Value found! (Recursive)" : "Value not found.");
                         break;
 
                     case "4":
                         Console.Write("Enter value to search: ");
                         if (int.TryParse(Console.ReadLine(), out int searchItr))
-                            Console.WriteLine(bst.SearchIterative(searchItr) ? "Found!" : "Not found.");
+                            Console.WriteLine(bst.SearchIterative(searchItr) ? "Value found! (Iterative)" : "Value not found.");
                         break;
 
                     case "5":

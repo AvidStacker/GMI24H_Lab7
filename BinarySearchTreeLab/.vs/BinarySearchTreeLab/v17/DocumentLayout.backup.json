@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
+  "WorkspaceRootPath": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\bookingschedulebst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|solutionrelative:eventbookingbst\\bookingschedulebst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|solutionrelative:eventbookingbst\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|solutionrelative:eventbookingbst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\binarysearchtreelab\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADD84B1-01A0-4298-B1A7-8DF2B4106B24}|BinarySearchTreeLab\\BinarySearchTreeLab.csproj|solutionrelative:binarysearchtreelab\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\ilage\\documents\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\eventbookingbst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|solutionrelative:eventbookingbst\\eventbookingbst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|c:\\users\\mattr\\skola\\\u00E5rskurs 2\\gmi24h - algoritmer och mjukvarudesign\\github\\gmi24h_lab7\\binarysearchtreelab\\eventbookingbst\\bookingschedulebst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7CD704-8E3C-440D-9864-D6246DCC3CC9}|EventBookingBST\\EventBookingBST.csproj|solutionrelative:eventbookingbst\\bookingschedulebst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EventBookingBST",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\EventBookingBST.csproj",
-              "RelativeDocumentMoniker": "EventBookingBST\\EventBookingBST.csproj",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\EventBookingBST.csproj",
-              "RelativeToolTip": "EventBookingBST\\EventBookingBST.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T09:50:49.821Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Program.cs",
+              "RelativeDocumentMoniker": "EventBookingBST\\Program.cs",
+              "ToolTip": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Program.cs",
+              "RelativeToolTip": "EventBookingBST\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:26:35.562Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingScheduleBST.cs",
+              "DocumentMoniker": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\BookingScheduleBST.cs",
+              "RelativeDocumentMoniker": "EventBookingBST\\BookingScheduleBST.cs",
+              "ToolTip": "C:\\Users\\Mattr\\Skola\\\u00C5rskurs 2\\GMI24H - Algoritmer och mjukvarudesign\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\BookingScheduleBST.cs",
+              "RelativeToolTip": "EventBookingBST\\BookingScheduleBST.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:17:10.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -67,10 +68,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -78,82 +75,8 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Event.cs",
-              "RelativeDocumentMoniker": "EventBookingBST\\Event.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Event.cs",
-              "RelativeToolTip": "EventBookingBST\\Event.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:50:53.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingScheduleBST.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\BookingScheduleBST.cs",
-              "RelativeDocumentMoniker": "EventBookingBST\\BookingScheduleBST.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\BookingScheduleBST.cs",
-              "RelativeToolTip": "EventBookingBST\\BookingScheduleBST.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwD0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:48:24.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Program.cs",
-              "RelativeDocumentMoniker": "EventBookingBST\\Program.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\EventBookingBST\\Program.cs",
-              "RelativeToolTip": "EventBookingBST\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:45:35.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TreeNode.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\TreeNode.cs",
-              "RelativeDocumentMoniker": "BinarySearchTreeLab\\TreeNode.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\TreeNode.cs",
-              "RelativeToolTip": "BinarySearchTreeLab\\TreeNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:29:41.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BinarySearchTree.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
-              "RelativeDocumentMoniker": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\BinarySearchTree.cs",
-              "RelativeToolTip": "BinarySearchTreeLab\\BinarySearchTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:24:51.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
-              "RelativeDocumentMoniker": "BinarySearchTreeLab\\Program.cs",
-              "ToolTip": "C:\\Users\\ilage\\Documents\\GitHub\\GMI24H_Lab7\\BinarySearchTreeLab\\BinarySearchTreeLab\\Program.cs",
-              "RelativeToolTip": "BinarySearchTreeLab\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwFwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:24:51.158Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         },
