@@ -58,7 +58,6 @@ namespace EventBookingBST
             return candidate;
         }
 
-
         public void ShowEventsAfter(DateTime afterTime)
         {
             ShowEventsAfterHelper(this.bst.Root, afterTime);
@@ -79,6 +78,19 @@ namespace EventBookingBST
             {
                 ShowEventsAfterHelper(node.Right, afterTime);
             }
+        }
+
+        public void ShowAllEvents()
+        {
+            ShowAllEventsHelper(this.bst.Root);
+        }
+
+        private void ShowAllEventsHelper(TreeNode<Event> node)
+        {
+            if (node == null) return;
+            ShowAllEventsHelper(node.Left);
+            Console.WriteLine(node.Value);
+            ShowAllEventsHelper(node.Right);
         }
     }
 }
