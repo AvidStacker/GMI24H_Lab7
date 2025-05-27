@@ -1,7 +1,14 @@
 ﻿namespace BinarySearchTreeLab
 {
+    /// <summary>
+    /// Entry point for the console application demonstrating basic BST operations with integers.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Main method. Runs a menu-driven console app for testing BinarySearchTree<int>.
+        /// </summary>
+        /// <param name="args">Command line arguments (not used).</param>
         static void Main(string[] args)
         {
             BinarySearchTree<int> bst = new BinarySearchTree<int>();
@@ -83,6 +90,11 @@
             }
         }
 
+        /// <summary>
+        /// Prints all values in the BST in sorted order using recursive in-order traversal.
+        /// </summary>
+        /// <typeparam name="T">The type of value stored in the tree nodes.</typeparam>
+        /// <param name="node">The starting node (typically the BST root).</param>
         public static void InOrderTraversal<T>(TreeNode<T> node)
         {
             if (node == null)
@@ -92,6 +104,11 @@
             InOrderTraversal(node.Right);
         }
 
+        /// <summary>
+        /// Prints all values in the BST in sorted order using iterative in-order traversal with a stack.
+        /// </summary>
+        /// <typeparam name="T">The type of value stored in the tree nodes.</typeparam>
+        /// <param name="root">The starting node (typically the BST root).</param>
         public static void InOrderTraversalIterative<T>(TreeNode<T> root)
         {
             var stack = new Stack<TreeNode<T>>();
@@ -99,7 +116,7 @@
 
             while (current != null || stack.Count > 0)
             {
-                // Gå så långt vänster som möjligt
+                // Traverse as far left as possible
                 while (current != null)
                 {
                     stack.Push(current);

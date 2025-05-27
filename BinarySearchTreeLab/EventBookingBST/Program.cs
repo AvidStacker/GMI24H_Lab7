@@ -1,8 +1,14 @@
 ﻿namespace EventBookingBST
 {
+    /// <summary>
+    /// Entry point for the Event Booking System console application using BST for event management.
+    /// </summary>
     internal class Program
     {
-
+        /// <summary>
+        /// Main method. Runs a menu-driven console app for scheduling, searching, and managing events using BST.
+        /// </summary>
+        /// <param name="args">Command line arguments (not used).</param>
         public static void Main(string[] args)
         {
             BookingScheduleBST bookingSchedule = new BookingScheduleBST();
@@ -86,7 +92,11 @@
             }
         }
 
-        // Hjälpmetod för datum-tid-inmatning
+        /// <summary>
+        /// Prompts the user to enter a date and time and parses the input. Repeats until valid.
+        /// </summary>
+        /// <param name="prompt">Prompt message to show to the user.</param>
+        /// <returns>A valid DateTime entered by the user.</returns>
         private static DateTime PromptForDateTime(string prompt)
         {
             DateTime date;
@@ -101,7 +111,10 @@
             }
         }
 
-        // Lägger till några events automatiskt
+        /// <summary>
+        /// Adds several demo events to the schedule automatically for testing or demonstration.
+        /// </summary>
+        /// <param name="bookingSchedule">The BookingScheduleBST to add demo events to.</param>
         private static void AddDemoEvents(BookingScheduleBST bookingSchedule)
         {
             var demoEvents = new[]

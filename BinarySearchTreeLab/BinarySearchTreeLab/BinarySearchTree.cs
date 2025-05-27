@@ -5,16 +5,31 @@ using System.Text;
 
 namespace BinarySearchTreeLab
 {
+    /// <summary>
+    /// Represents a generic binary search tree (BST) data structure.
+    /// </summary>
+    /// <typeparam name="T">Type of data to store, must implement IComparable.</typeparam>
     public class BinarySearchTree<T> where T : IComparable<T>
     {
         private TreeNode<T> root;
 
-        public BinarySearchTree()
-        {
-        }
-
+        /// <summary>
+        /// Gets the root node of the tree.
+        /// </summary>
         public TreeNode<T> Root => root;
 
+        /// <summary>
+        /// Initializes a new instance of the BinarySearchTree class.
+        /// </summary>
+        public BinarySearchTree()
+        {
+            // No explicit initialization required; root is null by default.
+        }
+
+        /// <summary>
+        /// Adds a value to the BST using a recursive approach.
+        /// </summary>
+        /// <param name="value">The value to add.</param>
         public void AddRecursive(T value)
         {
             if (this.root == null)
@@ -25,6 +40,9 @@ namespace BinarySearchTreeLab
             AddRecursiveHelper(this.root, value);
         }
 
+        /// <summary>
+        /// Helper method for recursively adding a value to the BST.
+        /// </summary>
         private void AddRecursiveHelper(TreeNode<T> current, T value)
         {
             int comparison = current.Value.CompareTo(value);
@@ -51,8 +69,14 @@ namespace BinarySearchTreeLab
                     AddRecursiveHelper(current.Right, value);
                 }
             }
+            // If value already exists, do nothing (no duplicates)
         }
 
+        /// <summary>
+        /// Searches for a value in the BST using a recursive approach.
+        /// </summary>
+        /// <param name="value">The value to search for.</param>
+        /// <returns>True if the value exists, otherwise false.</returns>
         public bool SearchRecursive(T value)
         {
             if (this.root == null)
@@ -62,6 +86,9 @@ namespace BinarySearchTreeLab
             return SearchRecursiveHelper(this.root, value);
         }
 
+        /// <summary>
+        /// Helper method for recursively searching for a value in the BST.
+        /// </summary>
         private bool SearchRecursiveHelper(TreeNode<T> current, T value)
         {
 
@@ -81,6 +108,11 @@ namespace BinarySearchTreeLab
             }
         }
 
+        /// <summary>
+        /// Deletes a value from the BST using a recursive approach.
+        /// </summary>
+        /// <param name="value">The value to delete.</param>
+        /// <returns>The updated root node after deletion.</returns>
         public TreeNode<T> DeleteRecursive(T value)
         {
             if (this.root == null)
@@ -94,6 +126,9 @@ namespace BinarySearchTreeLab
             return DeleteRecursiveHelper(this.root, value);
         }
 
+        /// <summary>
+        /// Helper method for recursively deleting a value from the BST.
+        /// </summary>
         private TreeNode<T> DeleteRecursiveHelper(TreeNode<T> current, T value)
         {
             if (current == null) return null;
@@ -111,6 +146,8 @@ namespace BinarySearchTreeLab
             else
             {
 
+                // Node to be deleted found
+
                 // Case 1: No children
                 if (current.Left == null && current.Right == null)
                 {
@@ -121,13 +158,14 @@ namespace BinarySearchTreeLab
                 if (current.Left == null) return current.Right;
                 if (current.Right == null) return current.Left;
 
-                // Case 3: Two children — find in-order successor inline
+                // Case 3: Two children — find in-order successor
                 TreeNode<T> successor = current.Right;
                 while (successor.Left != null)
                 {
                     successor = successor.Left;
                 }
 
+                // Copy successor's value to current node and delete successor
                 current.Value = successor.Value;
                 current.Right = DeleteRecursiveHelper(current.Right, successor.Value);
             }
@@ -135,7 +173,10 @@ namespace BinarySearchTreeLab
             return current;
         }
 
-
+        /// <summary>
+        /// Adds a value to the BST using an iterative approach.
+        /// </summary>
+        /// <param name="value">The value to add.</param>
         public void AddIterative(T value)
         {
             if (this.root == null)
@@ -170,6 +211,11 @@ namespace BinarySearchTreeLab
             }
         }
 
+        /// <summary>
+        /// Searches for a value in the BST using an iterative approach.
+        /// </summary>
+        /// <param name="value">The value to search for.</param>
+        /// <returns>True if the value exists, otherwise false.</returns>
         public bool SearchIterative(T value)
         {
             TreeNode<T> current = this.root;
@@ -194,6 +240,11 @@ namespace BinarySearchTreeLab
             return false;
         }
 
+        /// <summary>
+        /// Deletes a value from the BST using an iterative approach.
+        /// </summary>
+        /// <param name="value">The value to delete.</param>
+        /// <returns>The deleted node (if needed), otherwise throws exception if value does not exist.</returns>
         public TreeNode<T> DeleteIterative(T value)
         {
             if (this.root == null)
@@ -202,6 +253,7 @@ namespace BinarySearchTreeLab
             TreeNode<T> current = this.root;
             TreeNode<T> parent = null;
 
+            // Find node to delete
             while (current != null && current.Value.CompareTo(value) != 0)
             {
                 parent = current;
@@ -214,7 +266,7 @@ namespace BinarySearchTreeLab
             if (current == null)
                 throw new InvalidOperationException("Värdet finns inte i trädet.");
 
-            // Fall 1 & 2: 0 eller 1 barn
+            // Case 1 & 2: Node has at most one child
             TreeNode<T> child = current.Left ?? current.Right;
 
             if (parent == null)
@@ -224,7 +276,7 @@ namespace BinarySearchTreeLab
             else
                 parent.Right = child;
 
-            // Fall 3: två barn
+            // Case 3: Node has two children
             if (current.Left != null && current.Right != null)
             {
                 TreeNode<T> succParent = current;
@@ -235,6 +287,7 @@ namespace BinarySearchTreeLab
                     successor = successor.Left;
                 }
 
+                // Copy successor's value to current node and delete successor
                 current.Value = successor.Value;
 
                 if (succParent.Left == successor)
@@ -245,6 +298,5 @@ namespace BinarySearchTreeLab
 
             return current;
         }
-
     }
 }

@@ -7,39 +7,62 @@ using BinarySearchTreeLab;
 
 namespace EventBookingBST
 {
+    /// <summary>
+    /// Provides scheduling and event management functionality using a Binary Search Tree (BST) for Event objects.
+    /// </summary>
     internal class BookingScheduleBST
     {
         private BinarySearchTree<Event> bst;
 
+        /// <summary>
+        /// Initializes a new instance of the BookingScheduleBST class.
+        /// </summary>
         public BookingScheduleBST()
         {
             this.bst = new BinarySearchTree<Event>();
         }
 
-        // Add event
+        /// <summary>
+        /// Adds a new event to the schedule.
+        /// </summary>
+        /// <param name="ev">The event to add.</param>
         public void AddEvent(Event ev)
         {
             this.bst.AddRecursive(ev);
         }
 
-        // Search event (by exact Date)
+        /// <summary>
+        /// Searches for an event in the schedule by its date and time.
+        /// </summary>
+        /// <param name="ev">The event to search for (matching by date and time).</param>
+        /// <returns>True if the event is found; otherwise, false.</returns>
         public bool SearchEvent(Event ev)
         {
             return this.bst.SearchRecursive(ev);
         }
 
-        // Delete event (by exact Date)
+        /// <summary>
+        /// Deletes an event from the schedule by its date and time.
+        /// </summary>
+        /// <param name="ev">The event to delete (matching by date and time).</param>
         public void DeleteEvent(Event ev)
         {
             this.bst.DeleteRecursive(ev);
         }
 
-        // Find next available event after specified time
+        /// <summary>
+        /// Finds the next available event after the specified date and time.
+        /// </summary>
+        /// <param name="afterTime">The date and time to search after.</param>
+        /// <returns>The next available Event after the given time, or null if none exists.</returns>
         public Event FindNextAvailableEvent(DateTime afterTime)
         {
             return FindNextAvailableEventHelper(this.bst.Root, afterTime);
         }
 
+        /// <summary>
+        /// Helper method to find the next available event after a specified time (used recursively).
+        /// </summary>
         private Event FindNextAvailableEventHelper(TreeNode<Event> node, DateTime afterTime)
         {
             Event candidate = null;
@@ -58,11 +81,18 @@ namespace EventBookingBST
             return candidate;
         }
 
+        /// <summary>
+        /// Displays all events scheduled after the specified date and time.
+        /// </summary>
+        /// <param name="afterTime">The date and time to show events after.</param>
         public void ShowEventsAfter(DateTime afterTime)
         {
             ShowEventsAfterHelper(this.bst.Root, afterTime);
         }
 
+        /// <summary>
+        /// Helper method to recursively display all events after a given time.
+        /// </summary>
         private void ShowEventsAfterHelper(TreeNode<Event> node, DateTime afterTime)
         {
             if (node == null) return;
@@ -80,11 +110,17 @@ namespace EventBookingBST
             }
         }
 
+        /// <summary>
+        /// Displays all events in the schedule in sorted order (in-order traversal).
+        /// </summary>
         public void ShowAllEvents()
         {
             ShowAllEventsHelper(this.bst.Root);
         }
 
+        /// <summary>
+        /// Helper method to recursively display all events in sorted order.
+        /// </summary>
         private void ShowAllEventsHelper(TreeNode<Event> node)
         {
             if (node == null) return;
