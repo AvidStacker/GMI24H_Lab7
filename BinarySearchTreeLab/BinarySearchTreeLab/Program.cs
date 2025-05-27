@@ -83,7 +83,7 @@
             }
         }
 
-        public static void InOrderTraversal(TreeNode node)
+        public static void InOrderTraversal<T>(TreeNode<T> node)
         {
             if (node == null)
                 return;
@@ -92,10 +92,10 @@
             InOrderTraversal(node.Right);
         }
 
-        public static void InOrderTraversalIterative(TreeNode root)
+        public static void InOrderTraversalIterative<T>(TreeNode<T> root)
         {
-            var stack = new Stack<TreeNode>();
-            TreeNode current = root;
+            var stack = new Stack<TreeNode<T>>();
+            TreeNode<T> current = root;
 
             while (current != null || stack.Count > 0)
             {

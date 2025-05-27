@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTreeLab
 {
-    internal class TreeNode<T>
+    public class TreeNode<T>
     {
         public T Value { get; set; }
         public TreeNode<T> Left { get; set; }

@@ -1,0 +1,15 @@
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\bin\Debug\net8.0\BinarySearchTreeLab.exe
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\bin\Debug\net8.0\BinarySearchTreeLab.deps.json
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\bin\Debug\net8.0\BinarySearchTreeLab.runtimeconfig.json
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\bin\Debug\net8.0\BinarySearchTreeLab.dll
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\bin\Debug\net8.0\BinarySearchTreeLab.pdb
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.AssemblyInfoInputs.cache
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.AssemblyInfo.cs
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.csproj.CoreCompileInputs.cache
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.sourcelink.json
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.dll
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\refint\BinarySearchTreeLab.dll
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.pdb
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\BinarySearchTreeLab.genruntimeconfig.cache
+C:\Users\ilage\Documents\GitHub\GMI24H_Lab7\BinarySearchTreeLab\BinarySearchTreeLab\obj\Debug\net8.0\ref\BinarySearchTreeLab.dll

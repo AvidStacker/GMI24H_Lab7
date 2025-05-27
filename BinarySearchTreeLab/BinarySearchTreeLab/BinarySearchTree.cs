@@ -5,13 +5,15 @@ using System.Text;
 
 namespace BinarySearchTreeLab
 {
-    internal class BinarySearchTree<T> where T : IComparable<T>
+    public class BinarySearchTree<T> where T : IComparable<T>
     {
         private TreeNode<T> root;
 
         public BinarySearchTree()
         {
         }
+
+        public TreeNode<T> Root => root;
 
         public void AddRecursive(T value)
         {
