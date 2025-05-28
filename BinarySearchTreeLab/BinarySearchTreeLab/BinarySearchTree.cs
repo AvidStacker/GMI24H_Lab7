@@ -91,6 +91,8 @@ namespace BinarySearchTreeLab
         /// </summary>
         private bool SearchRecursiveHelper(TreeNode<T> current, T value)
         {
+            if (current == null)
+                return false;
 
             int comparison = current.Value.CompareTo(value);
 

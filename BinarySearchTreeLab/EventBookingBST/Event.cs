@@ -46,7 +46,10 @@ namespace EventBookingBST
         public int CompareTo(Event other)
         {
             if (other == null) return 1;
-            return this.Date.CompareTo(other.Date);
+            int dateCompare = this.Date.CompareTo(other.Date);
+            if (dateCompare != 0)
+                return dateCompare;
+            return string.Compare(this.Name, other.Name, StringComparison.OrdinalIgnoreCase);
         }
 
         /// <summary>

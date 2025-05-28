@@ -47,7 +47,12 @@ namespace EventBookingBST
         /// <param name="ev">The event to delete (matching by date and time).</param>
         public void DeleteEvent(Event ev)
         {
-            this.bst.DeleteRecursive(ev);
+            if (!bst.SearchRecursive(ev))
+            {
+                Console.WriteLine("Eventet finns inte i systemet.");
+                return;
+            }
+            bst.DeleteRecursive(ev);
         }
 
         /// <summary>

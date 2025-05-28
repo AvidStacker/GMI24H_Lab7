@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EventBookingBST/1.0.0": {
+        "dependencies": {
+          "BinarySearchTreeLab": "1.0.0"
+        },
+        "runtime": {
+          "EventBookingBST.dll": {}
+        }
+      },
+      "BinarySearchTreeLab/1.0.0": {
+        "runtime": {
+          "BinarySearchTreeLab.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventBookingBST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BinarySearchTreeLab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
